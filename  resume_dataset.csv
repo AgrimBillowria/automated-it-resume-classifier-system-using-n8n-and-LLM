@@ -1,0 +1,301 @@
+resume_id,name,education,experience_years,skills,job_title,industry,is_it_resume
+1,Manish Tiwari,B.Com,3,Tally;GST;Excel,Accountant,Sales,0
+2,Priya Nair,B.Tech IT,5,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+3,Sonal Kapoor,Diploma,0,Sales;Negotiation;CRM,Sales Executive,Finance,0
+4,Nitin Agarwal,B.Tech CS,3,Python;SQL;Git;DSA,Software Engineer,IT,1
+5,Mohit Bansal,BCA,1,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+6,Rahul Sharma,BCA,3,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+7,Sneha Iyer,MCA,4,Python;SQL;Git;DSA,Software Engineer,IT,1
+8,Karan Mehta,B.Com,3,Sales;Negotiation;CRM,Sales Executive,HR,0
+9,Amit Kumar,BCA,10,Java;Spring Boot;MySQL,Backend Developer,IT,1
+10,Vikas Malhotra,BCA,6,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+11,Amit Kumar,BA,7,Lab Testing;Documentation,Lab Technician,Finance,0
+12,Manish Tiwari,BCA,4,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+13,Rohit Jain,B.Com,0,Recruitment;Onboarding;Payroll,HR Executive,Sales,0
+14,Pooja Singh,MBA,5,Lab Testing;Documentation,Lab Technician,Manufacturing,0
+15,Vikas Malhotra,B.Sc,2,Writing;SEO;Editing,Content Writer,Finance,0
+16,Neha Gupta,B.Sc,5,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+17,Neha Gupta,MCA,2,Java;Spring Boot;MySQL,Backend Developer,IT,1
+18,Ayesha Khan,MBA,8,Writing;SEO;Editing,Content Writer,Healthcare,0
+19,Priya Nair,B.Tech CS,7,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+20,Rohit Jain,MBA,2,Sales;Negotiation;CRM,Sales Executive,Sales,0
+21,Manish Tiwari,BCA,7,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+22,Mohit Bansal,B.Tech IT,5,Java;Spring Boot;MySQL,Backend Developer,IT,1
+23,Sneha Iyer,BCA,3,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+24,Sonal Kapoor,B.Tech CS,1,Python;SQL;Git;DSA,Software Engineer,IT,1
+25,Ankit Verma,MCA,2,Python;SQL;Git;DSA,Software Engineer,IT,1
+26,Manish Tiwari,BCA,4,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+27,Priya Nair,MCA,6,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+28,Rohit Jain,B.Tech CS,0,Python;SQL;Git;DSA,Software Engineer,IT,1
+29,Pooja Singh,B.Tech CS,1,Java;Spring Boot;MySQL,Backend Developer,IT,1
+30,Mohit Bansal,B.Tech CS,10,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+31,Rohit Jain,BA,8,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+32,Nitin Agarwal,BA,3,Writing;SEO;Editing,Content Writer,Healthcare,0
+33,Rahul Sharma,B.Tech CS,6,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+34,Deepak Chauhan,B.Tech IT,2,Java;Spring Boot;MySQL,Backend Developer,IT,1
+35,Ravi Patel,B.Com,10,Writing;SEO;Editing,Content Writer,Finance,0
+36,Vikas Malhotra,B.Com,8,Writing;SEO;Editing,Content Writer,Finance,0
+37,Priya Nair,Diploma,2,Writing;SEO;Editing,Content Writer,HR,0
+38,Karan Mehta,B.Tech IT,9,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+39,Ayesha Khan,MBA,9,Sales;Negotiation;CRM,Sales Executive,HR,0
+40,Alok Yadav,BCA,10,Python;SQL;Git;DSA,Software Engineer,IT,1
+41,Nitin Agarwal,BCA,7,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+42,Vikas Malhotra,Diploma,7,AutoCAD;Maintenance,Mechanical Supervisor,Media,0
+43,Ritu Saxena,B.Tech CS,2,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+44,Sonal Kapoor,BA,2,Writing;SEO;Editing,Content Writer,HR,0
+45,Priya Nair,B.Com,9,Tally;GST;Excel,Accountant,Media,0
+46,Ankit Verma,B.Tech CS,4,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+47,Rahul Sharma,B.Sc,8,Sales;Negotiation;CRM,Sales Executive,Sales,0
+48,Ritu Saxena,BCA,7,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+49,Ravi Patel,BA,5,Recruitment;Onboarding;Payroll,HR Executive,Healthcare,0
+50,Sneha Iyer,B.Com,5,Sales;Negotiation;CRM,Sales Executive,Sales,0
+51,Ravi Patel,B.Sc,9,AutoCAD;Maintenance,Mechanical Supervisor,Sales,0
+52,Nitin Agarwal,BA,9,Lab Testing;Documentation,Lab Technician,Sales,0
+53,Priya Nair,B.Tech CS,10,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+54,Shubham Mishra,MBA,6,Tally;GST;Excel,Accountant,Media,0
+55,Ankit Verma,MCA,9,Java;Spring Boot;MySQL,Backend Developer,IT,1
+56,Deepak Chauhan,B.Tech IT,5,Java;Spring Boot;MySQL,Backend Developer,IT,1
+57,Rohit Jain,BCA,2,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+58,Ayesha Khan,B.Tech CS,2,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+59,Rohit Jain,B.Tech IT,7,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+60,Rohit Jain,BA,5,Recruitment;Onboarding;Payroll,HR Executive,Sales,0
+61,Priya Nair,MCA,0,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+62,Karan Mehta,B.Sc,4,AutoCAD;Maintenance,Mechanical Supervisor,Sales,0
+63,Sonal Kapoor,B.Com,9,Tally;GST;Excel,Accountant,Manufacturing,0
+64,Deepak Chauhan,BA,9,Lab Testing;Documentation,Lab Technician,HR,0
+65,Karan Mehta,B.Com,10,Writing;SEO;Editing,Content Writer,Manufacturing,0
+66,Alok Yadav,B.Tech CS,3,Java;Spring Boot;MySQL,Backend Developer,IT,1
+67,Ravi Patel,Diploma,10,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+68,Shubham Mishra,B.Tech CS,2,Java;Spring Boot;MySQL,Backend Developer,IT,1
+69,Neha Gupta,B.Tech CS,1,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+70,Rahul Sharma,Diploma,0,Recruitment;Onboarding;Payroll,HR Executive,Manufacturing,0
+71,Vikas Malhotra,B.Tech IT,1,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+72,Neha Gupta,MBA,7,Sales;Negotiation;CRM,Sales Executive,Sales,0
+73,Mohit Bansal,B.Tech CS,2,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+74,Shubham Mishra,B.Sc,8,Sales;Negotiation;CRM,Sales Executive,Finance,0
+75,Pooja Singh,B.Tech CS,8,Python;SQL;Git;DSA,Software Engineer,IT,1
+76,Karan Mehta,B.Tech IT,4,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+77,Amit Kumar,B.Sc,8,Lab Testing;Documentation,Lab Technician,Manufacturing,0
+78,Priya Nair,MBA,5,Tally;GST;Excel,Accountant,HR,0
+79,Deepak Chauhan,B.Com,6,Tally;GST;Excel,Accountant,Finance,0
+80,Neha Gupta,B.Sc,0,Sales;Negotiation;CRM,Sales Executive,Finance,0
+81,Nitin Agarwal,B.Sc,10,AutoCAD;Maintenance,Mechanical Supervisor,Healthcare,0
+82,Mohit Bansal,B.Sc,0,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+83,Priya Nair,B.Tech IT,9,Java;Spring Boot;MySQL,Backend Developer,IT,1
+84,Ravi Patel,MBA,5,Recruitment;Onboarding;Payroll,HR Executive,Finance,0
+85,Priya Nair,BCA,7,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+86,Nitin Agarwal,MCA,4,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+87,Shubham Mishra,B.Sc,5,Writing;SEO;Editing,Content Writer,Finance,0
+88,Neha Gupta,MBA,4,Tally;GST;Excel,Accountant,HR,0
+89,Alok Yadav,B.Tech CS,9,Python;SQL;Git;DSA,Software Engineer,IT,1
+90,Karan Mehta,B.Com,6,AutoCAD;Maintenance,Mechanical Supervisor,Healthcare,0
+91,Mohit Bansal,Diploma,3,Sales;Negotiation;CRM,Sales Executive,Finance,0
+92,Vikas Malhotra,MBA,1,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+93,Shubham Mishra,MCA,4,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+94,Ankit Verma,BCA,3,Java;Spring Boot;MySQL,Backend Developer,IT,1
+95,Ritu Saxena,MBA,9,Sales;Negotiation;CRM,Sales Executive,Media,0
+96,Deepak Chauhan,BCA,5,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+97,Shubham Mishra,B.Com,10,Recruitment;Onboarding;Payroll,HR Executive,Sales,0
+98,Manish Tiwari,MCA,5,Python;SQL;Git;DSA,Software Engineer,IT,1
+99,Amit Kumar,B.Tech CS,10,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+100,Deepak Chauhan,B.Sc,4,AutoCAD;Maintenance,Mechanical Supervisor,HR,0
+101,Karan Mehta,MCA,7,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+102,Mohit Bansal,B.Sc,10,Sales;Negotiation;CRM,Sales Executive,HR,0
+103,Pooja Singh,MCA,2,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+104,Amit Kumar,Diploma,3,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+105,Ravi Patel,Diploma,10,Writing;SEO;Editing,Content Writer,HR,0
+106,Manish Tiwari,MBA,6,Writing;SEO;Editing,Content Writer,HR,0
+107,Ravi Patel,B.Com,3,AutoCAD;Maintenance,Mechanical Supervisor,Sales,0
+108,Mohit Bansal,BA,2,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+109,Priya Nair,MCA,0,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+110,Priya Nair,B.Com,8,Recruitment;Onboarding;Payroll,HR Executive,Healthcare,0
+111,Alok Yadav,B.Tech IT,4,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+112,Shubham Mishra,BA,6,Lab Testing;Documentation,Lab Technician,HR,0
+113,Pooja Singh,MBA,8,AutoCAD;Maintenance,Mechanical Supervisor,Media,0
+114,Rohit Jain,MCA,3,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+115,Ritu Saxena,BA,1,Recruitment;Onboarding;Payroll,HR Executive,HR,0
+116,Shubham Mishra,B.Sc,6,Tally;GST;Excel,Accountant,Healthcare,0
+117,Ankit Verma,BCA,0,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+118,Priya Nair,MBA,6,Sales;Negotiation;CRM,Sales Executive,HR,0
+119,Manish Tiwari,B.Sc,10,Recruitment;Onboarding;Payroll,HR Executive,HR,0
+120,Karan Mehta,B.Tech CS,5,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+121,Manish Tiwari,BA,10,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+122,Rahul Sharma,MBA,9,AutoCAD;Maintenance,Mechanical Supervisor,HR,0
+123,Rahul Sharma,B.Com,9,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+124,Rahul Sharma,Diploma,0,Writing;SEO;Editing,Content Writer,Manufacturing,0
+125,Rohit Jain,BCA,1,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+126,Sonal Kapoor,BA,10,Lab Testing;Documentation,Lab Technician,Healthcare,0
+127,Shubham Mishra,B.Com,4,Writing;SEO;Editing,Content Writer,Finance,0
+128,Vikas Malhotra,B.Tech IT,10,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+129,Manish Tiwari,BCA,1,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+130,Deepak Chauhan,B.Sc,0,Writing;SEO;Editing,Content Writer,HR,0
+131,Karan Mehta,B.Tech IT,1,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+132,Ravi Patel,B.Tech CS,10,Java;Spring Boot;MySQL,Backend Developer,IT,1
+133,Alok Yadav,Diploma,8,Tally;GST;Excel,Accountant,Finance,0
+134,Amit Kumar,B.Tech IT,2,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+135,Ayesha Khan,BCA,8,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+136,Rahul Sharma,BA,3,Lab Testing;Documentation,Lab Technician,HR,0
+137,Pooja Singh,B.Tech CS,8,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+138,Nitin Agarwal,B.Sc,7,Tally;GST;Excel,Accountant,Finance,0
+139,Nitin Agarwal,BCA,5,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+140,Priya Nair,MBA,8,Recruitment;Onboarding;Payroll,HR Executive,Finance,0
+141,Ayesha Khan,B.Tech IT,0,Python;SQL;Git;DSA,Software Engineer,IT,1
+142,Alok Yadav,BCA,1,Java;Spring Boot;MySQL,Backend Developer,IT,1
+143,Alok Yadav,BA,7,Lab Testing;Documentation,Lab Technician,Healthcare,0
+144,Rohit Jain,B.Tech IT,1,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+145,Mohit Bansal,MBA,0,Lab Testing;Documentation,Lab Technician,Finance,0
+146,Rohit Jain,Diploma,5,Tally;GST;Excel,Accountant,Healthcare,0
+147,Ankit Verma,BA,2,Tally;GST;Excel,Accountant,Finance,0
+148,Amit Kumar,MCA,5,Java;Spring Boot;MySQL,Backend Developer,IT,1
+149,Mohit Bansal,MCA,5,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+150,Shubham Mishra,Diploma,8,Writing;SEO;Editing,Content Writer,Sales,0
+151,Nitin Agarwal,MBA,8,Recruitment;Onboarding;Payroll,HR Executive,Media,0
+152,Alok Yadav,Diploma,5,AutoCAD;Maintenance,Mechanical Supervisor,HR,0
+153,Vikas Malhotra,Diploma,8,Tally;GST;Excel,Accountant,Sales,0
+154,Vikas Malhotra,B.Com,2,Writing;SEO;Editing,Content Writer,Healthcare,0
+155,Deepak Chauhan,B.Tech CS,6,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+156,Amit Kumar,B.Com,6,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+157,Vikas Malhotra,BA,10,Recruitment;Onboarding;Payroll,HR Executive,HR,0
+158,Amit Kumar,B.Tech IT,10,Python;SQL;Git;DSA,Software Engineer,IT,1
+159,Sonal Kapoor,B.Sc,9,Writing;SEO;Editing,Content Writer,Manufacturing,0
+160,Nitin Agarwal,BA,8,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+161,Ritu Saxena,B.Tech IT,10,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+162,Rahul Sharma,B.Tech CS,2,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+163,Mohit Bansal,B.Sc,8,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+164,Deepak Chauhan,MCA,7,Java;Spring Boot;MySQL,Backend Developer,IT,1
+165,Ankit Verma,BA,4,AutoCAD;Maintenance,Mechanical Supervisor,Healthcare,0
+166,Ayesha Khan,MCA,3,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+167,Mohit Bansal,MBA,6,Tally;GST;Excel,Accountant,HR,0
+168,Alok Yadav,B.Tech IT,2,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+169,Sneha Iyer,BCA,8,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+170,Amit Kumar,MCA,6,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+171,Nitin Agarwal,MBA,10,AutoCAD;Maintenance,Mechanical Supervisor,Healthcare,0
+172,Ravi Patel,BCA,0,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+173,Ritu Saxena,B.Sc,5,Tally;GST;Excel,Accountant,HR,0
+174,Ankit Verma,Diploma,1,Recruitment;Onboarding;Payroll,HR Executive,Healthcare,0
+175,Deepak Chauhan,BA,9,AutoCAD;Maintenance,Mechanical Supervisor,HR,0
+176,Nitin Agarwal,BA,9,Sales;Negotiation;CRM,Sales Executive,Finance,0
+177,Vikas Malhotra,MBA,8,Writing;SEO;Editing,Content Writer,Media,0
+178,Karan Mehta,BCA,2,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+179,Karan Mehta,B.Sc,2,Writing;SEO;Editing,Content Writer,HR,0
+180,Pooja Singh,Diploma,7,Writing;SEO;Editing,Content Writer,Healthcare,0
+181,Ravi Patel,B.Tech CS,7,Java;Spring Boot;MySQL,Backend Developer,IT,1
+182,Alok Yadav,MBA,1,Lab Testing;Documentation,Lab Technician,Finance,0
+183,Rahul Sharma,B.Com,4,Sales;Negotiation;CRM,Sales Executive,Media,0
+184,Rohit Jain,B.Tech CS,1,Python;SQL;Git;DSA,Software Engineer,IT,1
+185,Sonal Kapoor,B.Tech CS,3,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+186,Sonal Kapoor,MCA,8,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+187,Ritu Saxena,B.Tech IT,6,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+188,Ritu Saxena,MCA,5,Python;SQL;Git;DSA,Software Engineer,IT,1
+189,Manish Tiwari,B.Tech CS,6,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+190,Priya Nair,B.Tech IT,6,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+191,Ritu Saxena,MCA,10,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+192,Rahul Sharma,MCA,0,Python;SQL;Git;DSA,Software Engineer,IT,1
+193,Ankit Verma,MCA,0,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+194,Vikas Malhotra,MBA,4,AutoCAD;Maintenance,Mechanical Supervisor,Sales,0
+195,Pooja Singh,MBA,9,Tally;GST;Excel,Accountant,Finance,0
+196,Shubham Mishra,Diploma,7,Writing;SEO;Editing,Content Writer,Healthcare,0
+197,Sneha Iyer,B.Tech CS,1,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+198,Neha Gupta,Diploma,3,Writing;SEO;Editing,Content Writer,Healthcare,0
+199,Neha Gupta,BCA,7,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+200,Deepak Chauhan,B.Tech CS,9,Python;SQL;Git;DSA,Software Engineer,IT,1
+201,Manish Tiwari,Diploma,8,Recruitment;Onboarding;Payroll,HR Executive,Sales,0
+202,Neha Gupta,B.Com,7,Lab Testing;Documentation,Lab Technician,HR,0
+203,Rahul Sharma,B.Sc,0,Tally;GST;Excel,Accountant,Finance,0
+204,Pooja Singh,B.Sc,3,Sales;Negotiation;CRM,Sales Executive,HR,0
+205,Sonal Kapoor,BA,1,Lab Testing;Documentation,Lab Technician,Manufacturing,0
+206,Shubham Mishra,MCA,9,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+207,Amit Kumar,MCA,3,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+208,Sonal Kapoor,BA,6,Recruitment;Onboarding;Payroll,HR Executive,Healthcare,0
+209,Ayesha Khan,B.Com,8,Sales;Negotiation;CRM,Sales Executive,HR,0
+210,Shubham Mishra,MCA,8,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+211,Ayesha Khan,MCA,0,Java;Spring Boot;MySQL,Backend Developer,IT,1
+212,Alok Yadav,B.Tech IT,6,Java;Spring Boot;MySQL,Backend Developer,IT,1
+213,Ritu Saxena,B.Tech CS,8,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+214,Amit Kumar,Diploma,2,AutoCAD;Maintenance,Mechanical Supervisor,Manufacturing,0
+215,Nitin Agarwal,B.Sc,8,Tally;GST;Excel,Accountant,Sales,0
+216,Karan Mehta,Diploma,9,Tally;GST;Excel,Accountant,Sales,0
+217,Neha Gupta,B.Tech IT,2,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+218,Rohit Jain,MBA,6,Recruitment;Onboarding;Payroll,HR Executive,Finance,0
+219,Pooja Singh,BCA,3,Java;Spring Boot;MySQL,Backend Developer,IT,1
+220,Karan Mehta,B.Sc,1,Recruitment;Onboarding;Payroll,HR Executive,Healthcare,0
+221,Rohit Jain,MCA,0,Java;Spring Boot;MySQL,Backend Developer,IT,1
+222,Sonal Kapoor,B.Tech CS,9,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+223,Neha Gupta,B.Com,3,Lab Testing;Documentation,Lab Technician,Sales,0
+224,Rohit Jain,MCA,10,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+225,Sonal Kapoor,MBA,10,Recruitment;Onboarding;Payroll,HR Executive,Manufacturing,0
+226,Ritu Saxena,B.Tech CS,6,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+227,Neha Gupta,B.Tech CS,6,Python;SQL;Git;DSA,Software Engineer,IT,1
+228,Ayesha Khan,BA,4,AutoCAD;Maintenance,Mechanical Supervisor,Manufacturing,0
+229,Rahul Sharma,MCA,6,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+230,Rohit Jain,B.Tech CS,6,Python;SQL;Git;DSA,Software Engineer,IT,1
+231,Ritu Saxena,BA,10,Tally;GST;Excel,Accountant,Media,0
+232,Priya Nair,Diploma,1,Writing;SEO;Editing,Content Writer,Sales,0
+233,Ravi Patel,B.Com,4,Writing;SEO;Editing,Content Writer,Media,0
+234,Ankit Verma,B.Sc,0,Writing;SEO;Editing,Content Writer,HR,0
+235,Priya Nair,B.Com,8,Recruitment;Onboarding;Payroll,HR Executive,Finance,0
+236,Amit Kumar,BCA,7,Java;Spring Boot;MySQL,Backend Developer,IT,1
+237,Karan Mehta,MCA,10,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+238,Mohit Bansal,B.Com,6,Writing;SEO;Editing,Content Writer,Media,0
+239,Vikas Malhotra,BA,5,Recruitment;Onboarding;Payroll,HR Executive,Manufacturing,0
+240,Nitin Agarwal,MBA,9,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+241,Ankit Verma,BA,6,Sales;Negotiation;CRM,Sales Executive,Sales,0
+242,Karan Mehta,B.Sc,10,AutoCAD;Maintenance,Mechanical Supervisor,Media,0
+243,Ravi Patel,BA,2,AutoCAD;Maintenance,Mechanical Supervisor,Finance,0
+244,Ayesha Khan,B.Sc,10,Sales;Negotiation;CRM,Sales Executive,Manufacturing,0
+245,Ayesha Khan,BCA,1,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+246,Sneha Iyer,B.Sc,4,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+247,Ravi Patel,B.Com,9,AutoCAD;Maintenance,Mechanical Supervisor,Manufacturing,0
+248,Neha Gupta,BA,7,Tally;GST;Excel,Accountant,Manufacturing,0
+249,Amit Kumar,B.Tech CS,7,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+250,Shubham Mishra,MBA,2,Sales;Negotiation;CRM,Sales Executive,HR,0
+251,Priya Nair,B.Tech CS,1,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+252,Sonal Kapoor,B.Tech CS,7,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+253,Sonal Kapoor,B.Sc,1,Lab Testing;Documentation,Lab Technician,Media,0
+254,Rohit Jain,MCA,4,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+255,Karan Mehta,MCA,9,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+256,Vikas Malhotra,BA,2,Sales;Negotiation;CRM,Sales Executive,Sales,0
+257,Rohit Jain,B.Tech CS,6,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+258,Manish Tiwari,B.Tech IT,2,Python;SQL;Git;DSA,Software Engineer,IT,1
+259,Ayesha Khan,MCA,5,Java;Spring Boot;MySQL,Backend Developer,IT,1
+260,Ritu Saxena,B.Com,4,Lab Testing;Documentation,Lab Technician,Sales,0
+261,Sneha Iyer,MBA,4,AutoCAD;Maintenance,Mechanical Supervisor,Media,0
+262,Rohit Jain,B.Tech IT,1,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+263,Manish Tiwari,B.Tech CS,9,Python;SQL;Git;DSA,Software Engineer,IT,1
+264,Neha Gupta,BA,2,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+265,Amit Kumar,B.Tech IT,8,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+266,Amit Kumar,MCA,10,Java;Spring Boot;MySQL,Backend Developer,IT,1
+267,Sneha Iyer,MBA,6,Lab Testing;Documentation,Lab Technician,HR,0
+268,Amit Kumar,B.Com,0,Writing;SEO;Editing,Content Writer,Manufacturing,0
+269,Ritu Saxena,MCA,4,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+270,Pooja Singh,B.Tech IT,9,Java;Spring Boot;MySQL,Backend Developer,IT,1
+271,Ankit Verma,MCA,1,AWS;Docker;Linux;CI/CD,DevOps Engineer,IT,1
+272,Deepak Chauhan,BA,2,Lab Testing;Documentation,Lab Technician,HR,0
+273,Priya Nair,MBA,2,Writing;SEO;Editing,Content Writer,Healthcare,0
+274,Nitin Agarwal,B.Tech CS,1,Java;Spring Boot;MySQL,Backend Developer,IT,1
+275,Vikas Malhotra,BCA,10,HTML;CSS;JavaScript;React,Frontend Developer,IT,1
+276,Rahul Sharma,B.Sc,8,Sales;Negotiation;CRM,Sales Executive,Finance,0
+277,Ayesha Khan,B.Sc,3,Sales;Negotiation;CRM,Sales Executive,HR,0
+278,Karan Mehta,MCA,1,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+279,Shubham Mishra,B.Com,3,Tally;GST;Excel,Accountant,HR,0
+280,Vikas Malhotra,B.Tech IT,7,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+281,Ankit Verma,B.Sc,8,Sales;Negotiation;CRM,Sales Executive,Healthcare,0
+282,Vikas Malhotra,Diploma,9,Sales;Negotiation;CRM,Sales Executive,Sales,0
+283,Shubham Mishra,B.Tech CS,2,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+284,Rohit Jain,B.Sc,3,Writing;SEO;Editing,Content Writer,Healthcare,0
+285,Nitin Agarwal,B.Com,0,Lab Testing;Documentation,Lab Technician,Sales,0
+286,Deepak Chauhan,MBA,2,Tally;GST;Excel,Accountant,Media,0
+287,Ravi Patel,MCA,6,Python;Machine Learning;TensorFlow,ML Engineer,IT,1
+288,Pooja Singh,B.Sc,1,Recruitment;Onboarding;Payroll,HR Executive,Media,0
+289,Manish Tiwari,Diploma,5,Tally;GST;Excel,Accountant,Finance,0
+290,Nitin Agarwal,MBA,0,AutoCAD;Maintenance,Mechanical Supervisor,Healthcare,0
+291,Mohit Bansal,B.Sc,0,Writing;SEO;Editing,Content Writer,Healthcare,0
+292,Sonal Kapoor,B.Tech IT,1,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+293,Nitin Agarwal,MBA,2,AutoCAD;Maintenance,Mechanical Supervisor,Manufacturing,0
+294,Shubham Mishra,Diploma,10,Sales;Negotiation;CRM,Sales Executive,HR,0
+295,Mohit Bansal,BCA,0,Python;Pandas;SQL;Excel,Data Analyst,IT,1
+296,Ayesha Khan,MCA,6,Python;SQL;Git;DSA,Software Engineer,IT,1
+297,Alok Yadav,B.Com,0,Lab Testing;Documentation,Lab Technician,Healthcare,0
+298,Sneha Iyer,Diploma,4,AutoCAD;Maintenance,Mechanical Supervisor,HR,0
+299,Ankit Verma,BCA,2,Python;SQL;Git;DSA,Software Engineer,IT,1
+300,Shubham Mishra,B.Tech CS,6,Python;Pandas;SQL;Excel,Data Analyst,IT,1

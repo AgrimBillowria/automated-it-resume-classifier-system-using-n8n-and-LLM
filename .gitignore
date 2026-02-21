@@ -1,0 +1,12 @@
+.venv/
+.conda/
+__pycache__/
+*.pkl
+*.log
+*.pid
+.DS_Store
+.agent/
+.cursor/
+node_modules/
+build/
+dist/
