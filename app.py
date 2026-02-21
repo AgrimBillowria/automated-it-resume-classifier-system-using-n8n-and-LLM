@@ -9,7 +9,9 @@ import concurrent.futures
 import utils
 import predictor
 
-app = Flask(__name__, static_folder='resume-classifier-frontend/dist', static_url_path='')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Default static folder is fine, we'll handle routing manually for SPA
+app = Flask(__name__, static_folder=os.path.join(BASE_DIR, 'resume-classifier-frontend/dist'))
 CORS(app)  # Enable CORS for all routes
 
 # Configuration
@@ -168,9 +170,13 @@ def process_single_file(filename, file_content):
             'error': str(e)
         }
 
-@app.route('/')
-def serve():
-    return send_from_directory(app.static_folder, 'index.html')
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory(app.static_folder, 'index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():

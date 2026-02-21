@@ -20,18 +20,17 @@ def run_project():
 
     # 1. Start Backend
     print("🚀 Starting Backend (Flask)...")
-    backend_log = open(os.path.join(base_dir, 'backend.log'), 'w')
-    # Use -u for unbuffered output to catch startup errors immediately
+    # Use DEVNULL to avoid permission errors when writing to the local directory
     backend = subprocess.Popen(
         [sys.executable, '-u', 'app.py'],
         cwd=base_dir,
-        stdout=backend_log,
+        stdout=subprocess.DEVNULL,
         stderr=subprocess.STDOUT
     )
 
     # 2. Wait for Backend (Critical Step)
     if not wait_for_port(5003, timeout=120, name="Backend"):
-        print("❌ Backend failed to start. Check 'backend.log' for details.")
+        print("❌ Backend failed to start.")
         backend.terminate()
         sys.exit(1)
     
@@ -39,17 +38,16 @@ def run_project():
 
     # 3. Start Frontend
     print("🚀 Starting Frontend (Vite)...")
-    frontend_log = open(os.path.join(frontend_dir, 'frontend.log'), 'w')
     frontend = subprocess.Popen(
         ['npm', 'run', 'dev:clean'],
         cwd=frontend_dir,
-        stdout=frontend_log,
+        stdout=subprocess.DEVNULL,
         stderr=subprocess.STDOUT
     )
 
     # 4. Wait for Frontend
     if not wait_for_port(5173, timeout=60, name="Frontend"):
-        print("❌ Frontend failed to start. Check 'resume-classifier-frontend/frontend.log'.")
+        print("❌ Frontend failed to start.")
         backend.terminate()
         frontend.terminate()
         sys.exit(1)
