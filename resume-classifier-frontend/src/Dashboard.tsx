@@ -12,6 +12,8 @@ interface FormData {
     education: string;
 }
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5003';
+
 interface PredictionResult {
     verdict: string;
     confidence_score: number;
@@ -115,7 +117,7 @@ const Dashboard: React.FC = () => {
 
     const fetchStats = async () => {
         try {
-            const res = await fetch('http://localhost:5003/stats');
+            const res = await fetch(`${API_BASE_URL}/stats`);
             if (res.ok) {
                 const data = await res.json();
                 setStats(data);
@@ -163,7 +165,7 @@ const Dashboard: React.FC = () => {
         setBatchResults([]);
 
         try {
-            let url = 'http://localhost:5003/predict';
+            let url = `${API_BASE_URL}/predict`;
             let options: RequestInit = {};
 
             if (activeTab === 'manual') {
@@ -192,7 +194,7 @@ const Dashboard: React.FC = () => {
                 const data = new FormData();
                 data.append('file', file);
 
-                url = 'http://localhost:5003/predict_pdf';
+                url = `${API_BASE_URL}/predict_pdf`;
                 options = {
                     method: 'POST',
                     body: data
@@ -221,7 +223,7 @@ const Dashboard: React.FC = () => {
                     return;
                 }
 
-                url = 'http://localhost:5003/predict_batch_pdf';
+                url = `${API_BASE_URL}/predict_batch_pdf`;
                 options = {
                     method: 'POST',
                     body: data
