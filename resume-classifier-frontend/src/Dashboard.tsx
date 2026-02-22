@@ -259,6 +259,17 @@ const Dashboard: React.FC = () => {
     return (
         <div className={`relative min-h-screen w-full overflow-hidden transition-colors duration-700 ${theme.bg} ${theme.text} font-['Inter'] selection:${theme.accent} selection:text-white`}>
 
+            {/* --- TOP LEFT NOTE --- */}
+            <div className="absolute top-6 left-6 z-50 group flex flex-col gap-1 items-start">
+                <div className={`text-[10px] tracking-[0.3em] uppercase font-bold px-3 py-1.5 border ${theme.border} ${theme.cardBg} backdrop-blur-md transition-all duration-300 hover:border-white/40`}>
+                    <span className="text-red-500 animate-pulse mr-2">●</span>
+                    Status: Limited Deployment
+                </div>
+                <div className={`text-[8px] tracking-[0.2em] uppercase opacity-40 px-3 transition-opacity duration-300 group-hover:opacity-100 max-w-[200px] leading-relaxed`}>
+                    Note: The developer is too poor to deploy the full backend infrastructure.
+                </div>
+            </div>
+
             {/* --- TOP RIGHT THEME SWITCHER --- */}
             <div className="absolute top-6 right-6 z-50 flex gap-2">
                 {(Object.keys(themes) as Array<keyof typeof themes>).map((key) => (
