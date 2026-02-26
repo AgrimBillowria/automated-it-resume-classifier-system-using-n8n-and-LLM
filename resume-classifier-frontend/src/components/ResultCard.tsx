@@ -57,11 +57,11 @@ const ResultCard: React.FC<ResultCardProps> = ({ result, onClick, theme = 'black
             <div className={`absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 bg-gradient-to-r ${isIT ? 'from-emerald-500/30 to-transparent' : 'from-orange-500/30 to-transparent'}`} />
 
             <div className="flex justify-between items-start mb-3 relative z-10">
-                <div className="overflow-hidden pr-2">
-                    <h3 className={`font-['Outfit'] font-semibold truncate text-base tracking-wide transition-colors ${textPrimary}`} title={displayName}>
+                <div className="overflow-hidden pr-2 flex-1">
+                    <h3 className={`font-['Outfit'] font-semibold truncate text-sm md:text-base tracking-wide transition-colors ${textPrimary}`} title={displayName}>
                         {displayName}
                     </h3>
-                    <p className={`text-[10px] ${textSecondary} tracking-[0.15em] uppercase font-medium mt-0.5`}>{result.class_label}</p>
+                    <p className={`text-[9px] md:text-[10px] ${textSecondary} tracking-[0.15em] uppercase font-medium mt-0.5`}>{result.class_label}</p>
                 </div>
                 {!result.error && (
                     <span className={`text-[10px] font-bold px-2.5 py-1 tracking-wider rounded-sm 

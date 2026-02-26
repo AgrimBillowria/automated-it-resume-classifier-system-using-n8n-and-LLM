@@ -261,17 +261,17 @@ const Dashboard: React.FC = () => {
 
             {/* --- TOP LEFT NOTE --- */}
             <div className="absolute top-6 left-6 z-50 group flex flex-col gap-1 items-start">
-                <div className={`text-[10px] tracking-[0.3em] uppercase font-bold px-3 py-1.5 border ${theme.border} ${theme.cardBg} backdrop-blur-md transition-all duration-300 hover:border-white/40`}>
+                <div className={`text-[10px] tracking-[0.3em] uppercase font-bold px-3 py-1.5 border ${theme.border} ${theme.cardBg} backdrop-blur-md transition-all duration-300 hover:border-white/40 hidden md:block`}>
                     <span className="text-red-500 animate-pulse mr-2">●</span>
                     Status: Limited Deployment
                 </div>
-                <div className={`text-[8px] tracking-[0.2em] uppercase opacity-40 px-3 transition-opacity duration-300 group-hover:opacity-100 max-w-[200px] leading-relaxed`}>
+                <div className={`text-[8px] tracking-[0.2em] uppercase opacity-40 px-3 transition-opacity duration-300 group-hover:opacity-100 max-w-[200px] leading-relaxed hidden md:block`}>
                     Note: The developer is too poor to deploy the full backend infrastructure.
                 </div>
             </div>
 
             {/* --- TOP RIGHT THEME SWITCHER --- */}
-            <div className="absolute top-6 right-6 z-50 flex gap-2">
+            <div className="absolute top-4 right-4 md:top-6 md:right-6 z-50 flex gap-2">
                 {(Object.keys(themes) as Array<keyof typeof themes>).map((key) => (
                     <button
                         key={key}
@@ -307,7 +307,7 @@ const Dashboard: React.FC = () => {
             {currentTheme === 'black' && <BlackThemeCanvas />}
 
             {/* --- MAIN CONTENT --- */}
-            <div className="relative z-10 max-w-7xl mx-auto px-6 py-6">
+            <div className="relative z-10 max-w-7xl mx-auto px-4 py-4 md:px-6 md:py-6">
 
                 {/* Header */}
                 <div className="flex flex-col items-center mb-4 space-y-1 animate-fade-in">
@@ -333,7 +333,7 @@ const Dashboard: React.FC = () => {
                     </div>
 
                     <div className={`h-[1px] w-24 ${currentTheme === 'white' ? 'bg-black/20' : 'bg-white/20'} mb-1`}></div>
-                    <div className="text-4xl md:text-6xl font-bold font-['Outfit'] tracking-[0.2em] uppercase text-center transition-colors duration-500 min-h-[60px] flex items-center justify-center">
+                    <div className="text-3xl md:text-6xl font-bold font-['Outfit'] tracking-[0.2em] uppercase text-center transition-colors duration-500 min-h-[60px] flex items-center justify-center">
                         {currentTheme === 'black' ? (
                             <ParticleText
                                 segments={[
@@ -403,7 +403,7 @@ const Dashboard: React.FC = () => {
                                             />
                                         </div>
 
-                                        <div className="grid grid-cols-2 gap-8">
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                                             <div className="group">
                                                 <label className={`block text-[10px] font-bold tracking-[0.2em] ${theme.textSecondary} uppercase mb-2`}>Experience</label>
                                                 <input
@@ -495,8 +495,8 @@ const Dashboard: React.FC = () => {
                     </div>
 
                     {/* RIGHT COLUMN: Results */}
-                    <div className="lg:col-span-8 flex flex-col">
-                        <div className={`flex-1 border ${theme.border} ${theme.cardBg} p-4 relative min-h-[500px] flex flex-col transition-colors duration-500`}>
+                    <div className="lg:col-span-8 flex flex-col mt-6 lg:mt-0">
+                        <div className={`flex-1 border ${theme.border} ${theme.cardBg} p-4 relative min-h-[300px] md:min-h-[500px] flex flex-col transition-colors duration-500`}>
                             <h2 className={`text-lg font-['Outfit'] tracking-widest uppercase border-b ${theme.border} pb-2 mb-4`}>
                                 02. Report
                             </h2>
@@ -522,7 +522,7 @@ const Dashboard: React.FC = () => {
 
                                     <div className="space-y-2">
                                         <span className={`text-[10px] font-bold tracking-[0.2em] ${theme.textSecondary} uppercase`}>Analysis Outcome</span>
-                                        <h2 className={`text-4xl md:text-5xl font-['Outfit'] tracking-widest uppercase ${result.class_id === 1 ? theme.success : theme.failure}`}>
+                                        <h2 className={`text-3xl md:text-5xl font-['Outfit'] tracking-widest uppercase ${result.class_id === 1 ? theme.success : theme.failure}`}>
                                             {result.verdict}
                                         </h2>
                                     </div>
@@ -541,7 +541,7 @@ const Dashboard: React.FC = () => {
                                     </div>
 
                                     <div className="space-y-4 pt-4">
-                                        <div className="grid grid-cols-2 gap-8">
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                                             <div>
                                                 <span className={`block text-[10px] font-bold tracking-[0.2em] ${theme.textSecondary} uppercase mb-2`}>Exp</span>
                                                 <p className="font-['Outfit'] text-lg">{result.parsed_data?.experience_years ?? (formData.experience || 0)} Yrs</p>
